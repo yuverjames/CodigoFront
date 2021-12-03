@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <table border="1">
+<!-- Una tabla esta compuesta por cabecera y cuerpo -->
+<!-- Por default una tabla no tiene borders -->
+    <thead>
+        <!-- Es el contenedro de mi cabecera -->
+    <tr>  <!-- para definir los elem,entos de mi cabecera deben estar dentro de una fila -->
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Correo</th>
+        <th>Numero telefono</th>
+    </tr>  
+    </thead>
+<tbody>
+    <tr>
+        <td>Gabriel</td>
+        <td>Jmaes</td>
+        <td>99999999</td>
+        <td>Gabriel.com</td>
+    </tr>
+</tbody>
+</table>
+<h2>Tabla de ususarios con imagenes</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>N0ombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+            <th>Foto</th>
+            <th>Github</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Juan</strong></td>
+            <td><i>Perez</i></td>
+            <td><u>20 años</u></td>
+            <td><img width="50" src="https://i.pinimg.com/236x/35/f6/71/35f6716adc65383508eca7cfda5b5594.jpg" alt="">
+            </td>
+            <td><a href="https://github.com/yuverjames/CodigoFront/settings/pages"> Link de Guthub </a></td>
+        </tr>
+    </tbody>
+</table>
+<table border="1">
+<thead>
+    <tr>
+        <th>Nombres</th>
+        <th>Apellidos</th>
+        <th colspan="2">Foto y Numero</th>
+    </tr>
+</thead>
+    <tbody>
+<tr>
+    <td colspan="2">Juan Chavez</td>
+    <td><img width="100" src="data:image/jpeg;base64,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" alt=""></td>
+    <td>99999999999</td>
+</tr>
+    </tbody>
+</table>
+<!-- Ahora el rowspan -->
+<table border="1">
+    <thead>
+     <tr>
+         <td>Curso</td>
+         <td>Nombres</td>
+         <td>Apellidos</td>
+         <td>Edad</td>
+     </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th rowspan="3">HTML</th>
+            <th>Perez</th>
+            <th>Juan</th>
+            <th>12 años</th>
+        </tr>
+        <tr>
+            <th>Perez</th>
+            <th>Juan</th>
+            <th>12 años</th>
+        </tr>
+        <tr>
+            <th>Perez</th>
+            <th>Juan</th>
+            <th>12 años</th>
+        </tr>
+        <tr>
+            <th rowspan="3">JavaScript</th>
+                <th>Perez</th>
+                <th>Juan</th>
+                <th>12 años</th>
+        </tr>
+        <tr>
+            <th>Perez</th>
+            <th>Juan</th>
+            <th>12 años</th>
+        </tr>
+        <tr>
+            <th>Perez</th>
+            <th>Juan</th>
+            <th>12 años</th>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

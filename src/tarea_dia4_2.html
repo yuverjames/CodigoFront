@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario tarea</title>
+</head>
+<body>
+    <table>
+    <h1>EJEMPLO 1</h1>
+    <H2>LOS CAMPOS MARCADOS CON * SON DE INTERSECCION OBLIGATORIA</H2>
+    <form> 
+        <label for="asunto">ASUNTO:</label> 
+        <input id="asunto" type="text"> 
+        <br>
+        <label required for="primer apellido">Primer Apellido:</label> 
+        <input id="apellido" type="text"> 
+        <br>
+        <label for="segundo apellido">Segundo Apellido:</label>
+        <input type="text">
+        <br>  
+        <label required for="nombre">Nombre:</label> 
+        <input type="text"> 
+        <br>
+        <label required for="dni">D.N.I./Pasaporte/N.I.E:</label>
+        <input type="number">
+        <br>
+        <label for="telefono">Telefono:</label>
+        <input type="number"> 
+        <br>
+        <label requiered for="correo">Correo Electronico:</label> 
+        <input type="email">
+        <br>
+        <label for="sobre que">¿Sobre que?</label> 
+        <select id="sobre que" name="">
+            <option value="">Vacio</option>
+            <option value="">Vacio</option>
+        </select>
+        <br>
+        <label for="que va escribir">Que va escribir:</label> 
+        <select name="" id="que va escribir">
+            <option value="">Vacio</option>
+            <option value="">Vacio</option>
+        </select>
+        <br>
+        <label for="texto">Texto a escribir</label>
+        <textarea required name="Pon aqui" id="texto" cols="30" rows="10"></textarea>
+    </form>
+    </table>
+    <button type="submit">Envuar</button>
+    <input type="submit" value="enviar datos">
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia-4 Formularios</title>
+</head>
+<body>
+    <!-- Los fomrularios son comunes y ahi en todas paginas web -->
+    <!-- Form de login -->
+    <!-- Form de registro -->
+    <!-- Form de contactos -->
+    <!-- Un formulario esta compuesto de -->
+    <!-- input (cajas de text, numero,fecha,color,email,password) -->
+    <!-- botones para enviar la info -->
+    <!-- select (son menus depegables) -->
+    <!-- el form tiene atributos como -->
+    <!-- action:es a donde se va enviar la info -->
+    <!-- method: es la forma en que la informacion sera enviada -->
+    <form action="" method="">
+        <fieldset>
+            <legend>Tu informacion personal</legend>
+        <h4>Input texto</h4>
+        <input 
+        type="text" 
+        placeholder="Ingrese tu nombre" 
+        value="Yuverjames"
+        maxlength="10"
+        minlength="5" 
+        name="nombre">
+        <h4>input number</h4>
+        <input type="number" placeholder="ingrese un numero" name="numero" />
+        <h4>inoput fecha</h4>
+        <input type="date" placeholder="ingrese fecha" name="fecha" />
+        <h4>input hora</h4>
+        <input type="time" placeholder="ingrese hora" name="hora" />
+        <h4>input archivo</h4>
+        <input type="file" placeholder="ingrese archivo" name="archivo" />
+    </fieldset>
+        <h4>input color</h4>
+        <input type="color" placeholder="ingrese color" name="color" />
+        <h4>input password</h4>
+        <input type="password" placeholder="Ingrese contraseña" name="password" required>
+        <h4>input email</h4>
+        <input type="email" placeholder="Ingrese correo" name="email" required>
+        <h4>Ingrese informacion</h4>
+        <textarea 
+        placeholder="Ingrese informacionde usted"
+        rows="30">
+        </textarea>
+    <h4>input radio</h4>
+    <!-- Hay un input sub,it que enbvia la informacion -->
+        <input type="radio" name="opcion_color"> Rojo
+        <input type="radio" name="opcion_color"> Azul
+        <input type="radio" name="opcion_color"> Verde
+        <h4>checkbox</h4>
+        <!-- los checkbox permiten marcar mas de una opcion -->
+        <input type="checkbox" name="curso"> Mate
+        <input type="checkbox" name="curso"> HTML
+        <input type="checkbox" name="curso"> JavaScript
+        <input type="checkbox" name="curso"> Comunicacion
+        <input type="checkbox" name="curso"> Fisica
+        <!--  puede ser un input o un boton -->
+        <!-- la select como combo box, menu despegable -->
+        <h4>select</h4>
+
+        <select name="cursos codigo">
+            <option value="html">HTML</option>
+            <option value="java">JavaScriopt</option>
+            <option value="mate">Mate</option>
+        </select>
+        <select name="Paises">
+            <option value="Peru">Peru</option>
+            <option value="Colombia" selected>Colombia</option>
+            <option value="Chile">Chile</option>
+        </select>
+        <h4>input submit</h4>
+        <input type="submit" value="Enviar datos">
+        <button type="submit">Enviar</button>
+        
+ </form>
+</body>
+</html>
