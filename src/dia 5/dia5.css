@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: red;
+    background-color: black;
+    /* Fontweirgth: Esto es para poder asignarle un peso a las letras va en el rango 100-900 */
+   font-weight: strong;
+   text-align: center;
+
+}
+
+body{
+    font-family: Helvetica;
+    /* bgcolor: es el color de fonod */   
+}  
+section article p {
+    background-color: yellow;
+    border: solid 3px red;
+    color: blue;
+    text-align: center;
+    font-size: 20px
+}
+section p {
+    background-color: yellowgreen;
+    color: #fff;
+    border: solid 3px red;
+    text-align: left;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+li{
+    color: green;
+}
+ul{
+    background-color:#ddd;
+    text-align: center;
+}
+ul li{
+    list-style: none;
+    display: inline;
+}
+nav{
+    border: solid green;
+}
+
+img{
+    width: 200;
+    height: 100;
+    border: solid 2px pink;
+}
+div{
+    border: solid 3px red;
+    text-align: center;
+}
+
+#titulo{
+    color: chocolate;
+}
+#text_align{
+    text-align: right;
+}
+#logo {
+    width: 10;
+    height: 5;
+}
