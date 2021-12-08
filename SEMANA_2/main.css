@@ -58,6 +58,10 @@ padding: 20px;
 .main h1 {
     margin-bottom: 20px;
 }
+.main h2 {
+    font-size: 20px;
+    font-family: Verdana;
+}
 .main p {
 margin-bottom: 20px;
 }
@@ -76,9 +80,18 @@ margin-bottom: 20px;
 }
 
 /* FOOTER */
-footer {
+.footer {
     background: red;
     padding: 20px;
     justify-content: space-between;
     display: flex;
+}
+
+.wrap {
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+.wrap .main {
+    flex-grow: 1;
 }
