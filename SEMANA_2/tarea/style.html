@@ -8,42 +8,115 @@
 </head>
 <link rel="stylesheet" href="../reset.css">
 <link rel="stylesheet" href="./style.css">
-<style> body {
+
+<style> 
+
+body {
     font-family: arial;
-    color: white;
+    color:white;
     text-decoration: none;
+}
+main {
+    margin: 20px;
+    color: black;
 }
 
 header {
     background: green;
     display: flex;
+    padding: 20px;
     justify-content: space-between;
+    align-items: center;
+}
+p {
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+h2 {
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.servicios-lista {
+margin-top: 10px;
+margin-bottom: 30px;
+}
+.servicios-portafolio {
+margin-top: 10px;
+margin-bottom: 30px;
+font-weight: bolder;
 }
 /* 2 */
 header .logo {
-    
+   
+
     text-decoration: none;
     font-size: 40px;
+    color: white;
+    }
+header a {
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    padding-right: 20px;
 }
+.home h2 {
+    color: purple;
+}
+
+.servicios-lista {
+    font-weight: bolder;
+}
+.servicios :nth-child(1)  {
+    color: #FF0000;
+}
+.servicios :nth-child(2) {
+    color: green;
+}
+.servicios :nth-child(3) {
+    color: indigo;
+}
+.escribe-nombnre {
+    border: solid black 2px;
+}
+.boton-enviar {
+    padding: 10px;
+    width: 100 px;
+    border: 2px solid rgb(15, 250, 15);
+}
+.footer {
+background:green;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+}
+footer a {
+    display: flex;
+    color: white;
+    align-content: space-between;
+    text-decoration: none;
+}
+
 </style>
 
 <body>
     <div>
         <header>
             <a class="logo" href="">
-                LOGO
-            </a>
-            <nav>
-             <ul>
-                <li><a href="">Quienes somos</a></li>
-                <li><a href="">Trabajos</a></li>
-                <li><a href="">Contacto</a> </li>
-              </ul>
+                LOGO </a>
+            <nav class="lista">
+                <a href="#">Quienes somos</a>
+                <a href="#">Trabajos</a>
+                <a href="#">Contacto</a>
             </nav>
         </header>
         
         <main>
-            <section>
+            <section class="home">
                 <h2>HOME</h2>
                 <p>Loremadsdfdsfddfsdfsdfsdfsdfdfsfdgsfsssssssssssssgsfdfdfbdgfgdfdfgdbvfhtyyunkhgf ipsum dolor sit amet, consectetur adipisicing elit. Error omnis officia commodi vitae quaerat libero id illo iure! Rem repellat cumque iusto non neque suscipit corporis officiis ipsa velit omnis.</p>
                 <figure>
@@ -52,7 +125,7 @@ header .logo {
                     <img src="./imagenes-tarea/home3.png" alt="">
                 </figure>
             </section>
-            <section>
+            <section class="servicios">
                 <h2>
                     CONTACTOS
                 </h2>
@@ -63,8 +136,51 @@ header .logo {
                     <img src="./imagenes-tarea/servicios3.png" alt="">
 
                 </figure>
+                <ul class="servicios-lista">
+                    <li>- Servicio uno</li>
+                    <br>
+                    <li>- Servicio dos</li>
+                    <br>
+                    <li>- Servicios tres</li>
+                    <br>
+                    <li>- Servicio cuatro</li>
+                </ul>
             </section>
+            <section class="portafolio">
+                <h2>PORTAFOLIO</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem doloremque corporis harum fugit? Vitae, ea. Laudantium ad placeat non sint delectus odio dicta, alias consequatur. Praesentium reprehenderit non saepe modi?</p>
+                <figure>
+                    <img src="./imagenes-tarea/portafolio1.png" alt="">
+                    <img src="./imagenes-tarea/portafolio2.png" alt="">
+                    <img src="./imagenes-tarea/portafolio3.png" alt="">
+                </figure>
+                <ul class="servicios-portafolio">
+                    <li>- Servicio uno</li>
+                    <br>
+                    <li>- Servicio dos</li>
+                    <br>
+                    <li>- Servicios tres</li>
+                    <br>
+                    <li>- Servicio cuatro</li>
+                </ul>
+            </section>
+            <section>
+                <h2>CONTACTOS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil voluptates ipsum libero eaque repellendus asperiores provident, dolorem commodi, quo consequatur illo qui minima molestiae explicabo quibusdam. Quibusdam aut quis aspernatur!</p>
+            </section>
+            <section> <textarea id="" cols="30" rows="10">Escribe un texto</textarea> </section> 
+            <br>
+                <section> <textarea name="" id="" cols="30" rows="10">texto2</textarea></section> <br>
+            <button class="boton-enviar">ENVIAR</button>
         </main>
+        <footer class="footer">
+             
+                 <a href="">Todos los derechos reservados</a>
+                 <a href="">Desarrollado por codIgo</a>
+             
+        
+        </footer>
         </div>
 </body>
+<!-- ALMOST FINISHED -->
 </html>
