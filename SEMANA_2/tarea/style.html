@@ -17,7 +17,7 @@ body {
     text-decoration: none;
 }
 main {
-    margin: 20px;
+    padding: 20px;
     color: black;
 }
 
@@ -32,6 +32,7 @@ p {
     margin-left: 0px;
     margin-bottom: 20px;
     margin-top: 15px;
+    font-size: 20px;
 }
 h2 {
     margin-left: 0px;
@@ -39,21 +40,25 @@ h2 {
     margin-top: 15px;
     font-family: helvetica;
     font-weight: bold;
+    font-size: 50px;
+}
+textarea {
+    width: 100%;
 }
 
 .servicios-lista {
 margin-top: 10px;
 margin-bottom: 30px;
+font-size: 30px;
 }
 .servicios-portafolio {
 margin-top: 10px;
 margin-bottom: 30px;
 font-weight: bolder;
+font-size: 30px;
 }
 /* 2 */
 header .logo {
-   
-
     text-decoration: none;
     font-size: 40px;
     color: white;
@@ -63,11 +68,21 @@ header a {
     color: white;
     align-items: center;
     padding-right: 20px;
+    font-size: 20px;
 }
 .home h2 {
-    color: purple;
+    color: #3B06D2;
 }
+.servicios h2 {
+    color: #D206B2;
+}
+.portafolio h2 {
+    color: #AAD206;
 
+}
+.contactos h2 {
+    color: #06D2C6;
+}
 .servicios-lista {
     font-weight: bolder;
 }
@@ -87,10 +102,11 @@ header a {
     padding: 10px;
     width: 100 px;
     border: 2px solid rgb(15, 250, 15);
+    font-size: 20px;
 }
 .footer {
 background:green;
-padding: 20px;
+padding: 10px;
 display: flex;
 justify-content: space-between;
 }
@@ -99,7 +115,18 @@ footer a {
     color: white;
     align-content: space-between;
     text-decoration: none;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+ main .image {
+     display: flex;
+     justify-content: space-between;
+ }
+ main .div {
+     margin-top: 60px;
+     margin-bottom: 60px;
+ }
 
 </style>
 
@@ -119,23 +146,35 @@ footer a {
             <section class="home">
                 <h2>HOME</h2>
                 <p>Loremadsdfdsfddfsdfsdfsdfsdfdfsfdgsfsssssssssssssgsfdfdfbdgfgdfdfgdbvfhtyyunkhgf ipsum dolor sit amet, consectetur adipisicing elit. Error omnis officia commodi vitae quaerat libero id illo iure! Rem repellat cumque iusto non neque suscipit corporis officiis ipsa velit omnis.</p>
+                <div class="image">
                 <figure>
-                    <img src="./imagenes-tarea/home1.png" alt="">
-                    <img src="./imagenes-tarea/home2.png" alt="">
-                    <img src="./imagenes-tarea/home3.png" alt="">
+                    <img src="./imagenes-tarea/home1.png"  alt="400" width="600">
                 </figure>
+                <figure>
+                    <img src="./imagenes-tarea/home2.png"  alt="400" width="600">
+                </figure>
+                <figure>
+                    <img src="./imagenes-tarea/home3.png"  alt="400" width="600">
+                </figure>
+            </div>
             </section>
             <section class="servicios">
                 <h2>
-                    CONTACTOS
+                    SERVICIOS
                 </h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nesciunt quo ullam odio nisi aperiam iste inventore consectetur, obcaecati ratione, blanditiis nobis expedita aut, maxime illo alias excepturi sit voluptas.</p>
+                <div class="image">
                 <figure>
-                    <img src="./imagenes-tarea/servicios1.png" alt="">
-                    <img src="./imagenes-tarea/servicios2.png" alt="">
-                    <img src="./imagenes-tarea/servicios3.png" alt="">
-
+                    <img src="./imagenes-tarea/servicios1.png" alt="400" width="600">
                 </figure>
+                <figure>
+                    <img src="./imagenes-tarea/servicios2.png"  alt="400" width="600">
+                </figure>
+                <figure>
+                    <img src="./imagenes-tarea/servicios3.png"  alt="400" width="600">
+                </figure>
+               </div>
+               <div class="div">
                 <ul class="servicios-lista">
                     <li>- Servicio uno</li>
                     <br>
@@ -144,16 +183,25 @@ footer a {
                     <li>- Servicios tres</li>
                     <br>
                     <li>- Servicio cuatro</li>
+                </div>
                 </ul>
             </section>
             <section class="portafolio">
                 <h2>PORTAFOLIO</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem doloremque corporis harum fugit? Vitae, ea. Laudantium ad placeat non sint delectus odio dicta, alias consequatur. Praesentium reprehenderit non saepe modi?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem doloremque corporis harum fugit? Vitae, ea. Laudantium ad placeat non sint delectus odio dicta, alias consequatur. Praesentium reprehenderit non saepe modi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique iste odit dicta, obcaecati culpa esse? Consequuntur ex aspernatur eaque. Nostrum explicabo ab tempora numquam earum accusamus nesciunt nobis tenetur totam?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem doloremque corporis harum fugit? Vitae, ea. Laudantium ad placeat non sint delectus odio dicta, alias consequatur. Praesentium reprehenderit non saepe modi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique iste odit dicta, obcaecati culpa esse? Consequuntur ex aspernatur eaque. Nostrum explicabo ab tempora numquam earum accusamus nesciunt nobis tenetur totam?</p>
+                <div class="image">
                 <figure>
-                    <img src="./imagenes-tarea/portafolio1.png" alt="">
-                    <img src="./imagenes-tarea/portafolio2.png" alt="">
-                    <img src="./imagenes-tarea/portafolio3.png" alt="">
+                    <img src="./imagenes-tarea/portafolio1.png"  alt="400" width="600">
                 </figure>
+                <figure>   
+                    <img src="./imagenes-tarea/portafolio2.png"  alt="400" width="600">
+                </figure> 
+                <figure>
+                    <img src="./imagenes-tarea/portafolio3.png"  alt="400" width="600">
+                </figure>
+                </div>
+                <div class="div">
                 <ul class="servicios-portafolio">
                     <li>- Servicio uno</li>
                     <br>
@@ -163,24 +211,23 @@ footer a {
                     <br>
                     <li>- Servicio cuatro</li>
                 </ul>
+            </div>
             </section>
-            <section>
-                <h2>CONTACTOS</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil voluptates ipsum libero eaque repellendus asperiores provident, dolorem commodi, quo consequatur illo qui minima molestiae explicabo quibusdam. Quibusdam aut quis aspernatur!</p>
+            <section class="contactos">
+                <h2>Contactos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil voluptates ipsum libero eaque repellendus asperiores provident, dolorem commodi, quo consequatur illo qui minima molestiae explicabo quibusdam. Quibusdam aut quis aspernatur!</p> 
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem doloremque corporis harum fugit? Vitae, ea. Laudantium ad placeat non sint delectus odio dicta, alias consequatur. Praesentium reprehenderit non saepe modi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique iste odit dicta, obcaecati culpa esse? Consequuntur ex aspernatur eaque. Nostrum explicabo ab tempora numquam earum accusamus nesciunt nobis tenetur totam?</p>
             </section>
-            <section> <textarea id="" cols="30" rows="10">Escribe un texto</textarea> </section> 
+            <section> <textarea id="" cols="150" rows="3" placeholder="Nombres y Apellidos"></textarea> </section> 
             <br>
-                <section> <textarea name="" id="" cols="30" rows="10">texto2</textarea></section> <br>
+                <section> <textarea name="" id="" cols="150" rows="15" placeholder="Detalles"></textarea></section> <br>
             <button class="boton-enviar">ENVIAR</button>
         </main>
         <footer class="footer">
              
                  <a href="">Todos los derechos reservados</a>
                  <a href="">Desarrollado por codIgo</a>
-             
-        
         </footer>
         </div>
 </body>
-<!-- ALMOST FINISHED -->
 </html>
