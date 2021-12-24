@@ -1,0 +1,334 @@
+*   {
+    box-sizing: border-box; 
+}
+html{
+    font-size: 62.5;
+}
+h1{
+    color:white;
+   font-size: 60px;
+   font-weight: bold;
+}
+h2{
+    color: white;
+    font-weight: bold;
+}
+body {
+    font-family: arial;
+    font-size: 1.4rem;
+}
+p   {
+    font-size: 20px;
+    line-height: 30px;
+}
+.wrapped    {
+    width: 960px;
+    margin: auto;
+}
+.section_1  {
+    position: relative;
+}
+.section_1 img  {
+    display: block;
+}
+.section_1 h1,  
+.section_1 h2  {
+    position: absolute;
+    color: white;
+}
+.section_1 h1   {
+    width: 100%;
+    text-align: center;
+    top: 65px
+}
+.section_1 h2   {
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    background: hsla(223, 99%, 72%, 0.525);
+    left: 78px;
+    bottom: 140px;
+    padding: 22px 18px;
+}
+.sobre-mi   {
+    background:#7299FE;
+    padding: 30px 40px 70px;
+    color: white;
+}
+.about-me    {
+    font-size: 25px;
+    top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #1D06A7;
+}
+
+.button     {
+    border: none;
+    font-size: 25px;
+    padding: 15px 40px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background: #D16FFF;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.button:hover   {
+    cursor: pointer;
+    color: #26CC4B;
+   padding: 20px 50px;
+   font-weight: bold;
+}
+.mis-skills     {
+    text-align: center;
+    color:#26CC4B;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.skills{
+    padding: 35px 25px 70px 70px;
+    background: #9122FF;
+}
+.skills h2          	{
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.list-skills   {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.list-item  {
+    width: 48%;
+    padding-bottom: 20px;
+}
+.barra-blanca   {
+    background: white;
+    width: 370px;
+    height: 20px;
+    border-radius: 20px;
+}
+.html  {
+    background: #57EFF9;
+    width: 250px;
+    height: 20px;
+    border-radius: 20px;
+    animation-name: html;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes html   {
+    from {
+        width: 0px;
+        background: red;
+    }
+    to  {
+        width: 250px;
+        background:greenyellow ;
+    }
+}  
+
+.flexbox  {
+    background: #57EFF9;
+    width: 250px;
+    height: 20px;
+    border-radius: 20px;
+    animation-name: flexbox;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes flexbox   {
+    from {
+        width: 0px;
+        background: red;
+    }
+    to  {
+        width: 290px;
+        background:greenyellow ;
+    }
+}  
+
+.vlue {
+    background: #57EFF9;
+    width: 250px;
+    height: 20px;
+    border-radius: 20px;
+    animation-name: vlue;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes vlue  {
+    from {
+        width: 0px;
+        background: red;
+    }
+    to  {
+        width: 150px;
+        background:greenyellow;
+    }
+}  
+
+.java  {
+    background: #57EFF9;
+    width: 250px;
+    height: 20px;
+    border-radius: 20px;
+    animation-name: java;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes java   {
+    from {
+        width: 0px;
+        background: red;
+    }
+    to  {
+        width: 200px;
+        background:greenyellow ;
+    }
+}  
+
+.css  {
+    background: #57EFF9;
+    width: 250px;
+    height: 20px;
+    border-radius: 20px;
+    animation-name: css;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes css  {
+    from {
+        width: 0px;
+        background: red;
+    }
+    to  {
+        width: 280px;
+        background:greenyellow ;
+    }
+}  
+
+.css-grid {
+    background: #57EFF9;
+    width: 250px;
+    height: 20px;
+    border-radius: 20px;
+    animation-name: cssGrid;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes cssGrid   {
+    from {
+        width: 0px;
+        background: red;
+    }
+    to  {
+        width: 120px;
+        background:greenyellow ;
+    }
+}  
+
+.portfolio  {
+    background:#FFD233;
+    padding: 40px 34px 108px 94px;
+    
+}
+.portfolio h2   {
+ color: #00AD84;
+ font-size: 30px;
+ padding-bottom: 40px;
+ text-align: center;
+}
+.portfolio img  {
+    margin: 5px;
+    transition:all .5s ease;
+}
+.portfolio img:hover    {
+    width: 280px;
+    height: 184px;
+    border-radius: 5px;
+    border: solid 1px white;
+}
+.portfolio .images-portfolio-1 {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.portfolio .images-portfolio-2 {
+    display: flex;
+    justify-content: center;
+}
+.clients    {
+    background: #3F4E62;
+    padding: 30px;
+}
+.clients h2{
+    color: greenyellow;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.clients-images     {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.clients img   {
+ margin: 10px;
+ transition: all .3s ease;
+}
+.clients img:hover{
+    zoom: 105%;
+    border-radius: 5px;
+    border: 4px solid greenyellow;
+}
+.contact    {
+    background: #1687A0;
+    padding: 30px 90px 70px;
+}
+.contact input, .contact textarea  {
+    padding: 15px;
+    border-radius: 10px;
+    border: solid 2px gray;
+}
+.contact input:focus, .contact textarea:focus {
+    outline: none;
+}
+.contact input:focus:invalid, .contact textarea:focus:invalid {
+    border-color: red;
+}
+.contact input:focus:valid, .contact textarea:focus:valid {
+    border-color: greenyellow;
+}
+.contact h2     {
+    color: #FF1B1B;
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.formulario {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.formulario textarea    {
+    grid-column-end: span 2;
+}
+.button-2   {
+    text-align: center;
+    padding-top: 30px;
+}
+.contact button     {
+    background: 
+    #233451;
+    color: white;
+    padding: 18px 50px;
+    font-size: 18px;
+    cursor: pointer;
+}
